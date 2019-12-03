@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26195" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:35 GMT">
+  <suite name="Suite" duration-ms="32984" started-at="2019-12-03T17:25:24 GMT" finished-at="2019-12-03T17:25:57 GMT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26195" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:35 GMT">
+    <test name="Test" duration-ms="32984" started-at="2019-12-03T17:25:24 GMT" finished-at="2019-12-03T17:25:57 GMT">
       <class name="test.ChallengingDOM">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="openBrowser" is-config="true" duration-ms="13667" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:22 GMT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="openBrowser" is-config="true" duration-ms="12180" started-at="2019-12-03T17:25:24 GMT" finished-at="2019-12-03T17:25:37 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyRows()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyRows" duration-ms="9280" started-at="2019-12-03T03:10:22 GMT" finished-at="2019-12-03T03:10:32 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRows -->
-        <test-method status="PASS" signature="verifyTableHeadings()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyTableHeadings" duration-ms="702" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTableHeadings -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyTitle" duration-ms="12" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyTitle" duration-ms="72" started-at="2019-12-03T17:25:37 GMT" finished-at="2019-12-03T17:25:37 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="verifyHeading()[pri:1, instance:test.ChallengingDOM@67b92f0a]" name="verifyHeading" duration-ms="76" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
+        <test-method status="PASS" signature="verifyHeading()[pri:1, instance:test.ChallengingDOM@67b92f0a]" name="verifyHeading" duration-ms="344" started-at="2019-12-03T17:25:37 GMT" finished-at="2019-12-03T17:25:37 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeading -->
-        <test-method status="PASS" signature="verifyDescription()[pri:2, instance:test.ChallengingDOM@67b92f0a]" name="verifyDescription" duration-ms="80" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:33 GMT">
+        <test-method status="PASS" signature="verifyDescription()[pri:2, instance:test.ChallengingDOM@67b92f0a]" name="verifyDescription" duration-ms="212" started-at="2019-12-03T17:25:37 GMT" finished-at="2019-12-03T17:25:37 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDescription -->
-        <test-method status="PASS" signature="verifyButtonSet()[pri:3, instance:test.ChallengingDOM@67b92f0a]" name="verifyButtonSet" duration-ms="168" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:33 GMT">
+        <test-method status="PASS" signature="verifyButtonSet()[pri:3, instance:test.ChallengingDOM@67b92f0a]" name="verifyButtonSet" duration-ms="564" started-at="2019-12-03T17:25:37 GMT" finished-at="2019-12-03T17:25:38 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyButtonSet -->
-        <test-method status="PASS" signature="verifyBlueButtonClick()[pri:4, instance:test.ChallengingDOM@67b92f0a]" name="verifyBlueButtonClick" duration-ms="765" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:33 GMT">
+        <test-method status="PASS" signature="verifyBlueButtonClick()[pri:4, instance:test.ChallengingDOM@67b92f0a]" name="verifyBlueButtonClick" duration-ms="1322" started-at="2019-12-03T17:25:38 GMT" finished-at="2019-12-03T17:25:39 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBlueButtonClick -->
-        <test-method status="PASS" signature="verifyRedButtonClick()[pri:5, instance:test.ChallengingDOM@67b92f0a]" name="verifyRedButtonClick" duration-ms="540" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:34 GMT">
+        <test-method status="PASS" signature="verifyRedButtonClick()[pri:5, instance:test.ChallengingDOM@67b92f0a]" name="verifyRedButtonClick" duration-ms="2697" started-at="2019-12-03T17:25:39 GMT" finished-at="2019-12-03T17:25:42 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRedButtonClick -->
-        <test-method status="PASS" signature="verifyGreenButtonClick()[pri:6, instance:test.ChallengingDOM@67b92f0a]" name="verifyGreenButtonClick" duration-ms="772" started-at="2019-12-03T03:10:34 GMT" finished-at="2019-12-03T03:10:35 GMT">
+        <test-method status="PASS" signature="verifyGreenButtonClick()[pri:6, instance:test.ChallengingDOM@67b92f0a]" name="verifyGreenButtonClick" duration-ms="588" started-at="2019-12-03T17:25:42 GMT" finished-at="2019-12-03T17:25:43 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGreenButtonClick -->
-        <test-method status="PASS" signature="CloseBowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="CloseBowser" is-config="true" duration-ms="300" started-at="2019-12-03T03:10:35 GMT" finished-at="2019-12-03T03:10:35 GMT">
+        <test-method status="PASS" signature="verifyTableHeadings()[pri:7, instance:test.ChallengingDOM@67b92f0a]" name="verifyTableHeadings" duration-ms="377" started-at="2019-12-03T17:25:43 GMT" finished-at="2019-12-03T17:25:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeadings -->
+        <test-method status="PASS" signature="verifyRows()[pri:8, instance:test.ChallengingDOM@67b92f0a]" name="verifyRows" duration-ms="2864" started-at="2019-12-03T17:25:43 GMT" finished-at="2019-12-03T17:25:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRows -->
+        <test-method status="PASS" signature="verifyEditDeleteLink()[pri:9, instance:test.ChallengingDOM@67b92f0a]" name="verifyEditDeleteLink" duration-ms="2572" started-at="2019-12-03T17:25:46 GMT" finished-at="2019-12-03T17:25:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditDeleteLink -->
+        <test-method status="PASS" signature="verifyForkImg()[pri:10, instance:test.ChallengingDOM@67b92f0a]" name="verifyForkImg" duration-ms="4719" started-at="2019-12-03T17:25:48 GMT" finished-at="2019-12-03T17:25:53 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForkImg -->
+        <test-method status="PASS" signature="verifyFooter()[pri:11, instance:test.ChallengingDOM@67b92f0a]" name="verifyFooter" duration-ms="4237" started-at="2019-12-03T17:25:53 GMT" finished-at="2019-12-03T17:25:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method status="PASS" signature="CloseBowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="CloseBowser" is-config="true" duration-ms="134" started-at="2019-12-03T17:25:57 GMT" finished-at="2019-12-03T17:25:58 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBowser -->
       </class> <!-- test.ChallengingDOM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

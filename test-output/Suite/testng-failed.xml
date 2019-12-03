@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.DataValidation">
+      <class name="test.ChallengingDOM">
         <methods>
-          <include name="verifyButtonClick"/>
+          <include name="CloseBowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyForkImg"/>
         </methods>
-      </class> <!-- test.DataValidation -->
+      </class> <!-- test.ChallengingDOM -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

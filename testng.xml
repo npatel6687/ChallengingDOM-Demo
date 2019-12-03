@@ -3,11 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test.DataValidation"/>
       <class name="test.ChallengingDOM">
-      	<methods>
-      		<exclude name="verify"/>
-      	</methods>
+      	
        </class>
     </classes>
   </test> <!-- Test -->

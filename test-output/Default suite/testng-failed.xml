@@ -7,7 +7,7 @@
         <methods>
           <include name="CloseBowser"/>
           <include name="openBrowser"/>
-          <include name="verify"/>
+          <include name="verifyFooter"/>
         </methods>
       </class> <!-- test.ChallengingDOM -->
     </classes>
