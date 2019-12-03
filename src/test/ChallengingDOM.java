@@ -65,6 +65,7 @@ public class ChallengingDOM extends OpenBrowser{
 		System.out.println("Before clicking on any button, Answer displayed: "+answerDisplayed);
 		
 	}
+	
 	@Test(priority = 4)
 	public  void verifyBlueButtonClick() {
 		
@@ -75,7 +76,6 @@ public class ChallengingDOM extends OpenBrowser{
 		WebElement canvasElement = driver.findElement(By.cssSelector("div[class='large-10 columns']"));
 		boolean answerDisplayed = canvasElement.findElement(By.xpath("//canvas[@id='canvas']")).isDisplayed();
 		Assert.assertTrue(answerDisplayed);
-		System.out.println("Answer displayed: "+answerDisplayed);
 		
 	}
 	@Test(priority = 5)
@@ -87,8 +87,7 @@ public  void verifyRedButtonClick() {
 		WebElement canvasElement = driver.findElement(By.cssSelector("div[class='large-10 columns']"));
 		boolean answerDisplayed = canvasElement.findElement(By.xpath("//canvas[@id='canvas']")).isDisplayed();
 		Assert.assertTrue(answerDisplayed);
-		System.out.println("Answer displayed: "+answerDisplayed);
-}
+	}
 	
 	@Test(priority = 6)
 	public  void verifyGreenButtonClick() {
@@ -99,10 +98,9 @@ public  void verifyRedButtonClick() {
 			WebElement canvasElement = driver.findElement(By.cssSelector("div[class='large-10 columns']"));
 			boolean answerDisplayed = canvasElement.findElement(By.xpath("//canvas[@id='canvas']")).isDisplayed();
 			Assert.assertTrue(answerDisplayed);
-			System.out.println("Answer displayed: "+answerDisplayed);	
 	}
 	@Test(priority = 7)
-	public  void verifyTableHeadings() {
+	public  void verifyCoulumnHeadings() {
 		WebElement table = driver.findElement(By.cssSelector("div[class='large-10 columns']"));
 		WebElement actionTable = table.findElement(By.tagName("table"));
 		int headingsCount = actionTable.findElements(By.tagName("th")).size();
@@ -111,8 +109,6 @@ public  void verifyRedButtonClick() {
 		for(int i=0;i<headingsCount;i++){
 				String actualHeading = actionTable.findElements(By.tagName("th")).get(i).getText();
 				Assert.assertEquals(actualHeading, expHeadings.get(i));
-				//System.out.println("expheading: "+expHeadings.get(i));
-				//System.out.println(count + ": "+actionTable.findElements(By.tagName("th")).get(i).getText());
 				
 		}
 	}
@@ -123,8 +119,7 @@ public  void verifyRedButtonClick() {
 		WebElement actionTable = table.findElement(By.tagName("table"));
 		int headingsCount = actionTable.findElements(By.tagName("th")).size();
 		int rowCount = actionTable.findElements(By.tagName("tr")).size();
-		//System.out.println("Number of rows:"+rowCount);
-		//System.out.println("Number of headings:"+headingsCount);
+		System.out.println("Number of rows:"+rowCount);
 		List<String> expRow1 = Arrays.asList("Iuvaret","Apeirian","Adipisci","Definiebas","Consequuntur","Phaedrum"); 
 		
 		for(int i=1;i<rowCount;i++){
@@ -169,6 +164,7 @@ public  void verifyRedButtonClick() {
 		System.out.println("After switching to Child window:"+actualForkImgUrl);
 		Assert.assertEquals(actualForkImgUrl, expForkImgURL);	
 		driver.navigate().back();
+		System.out.println("After switching back to previous URL:"+driver.getCurrentUrl());
 	}
 
 	@Test(priority = 11)
