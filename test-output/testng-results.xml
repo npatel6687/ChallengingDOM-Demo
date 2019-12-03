@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26195" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:35 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26195" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:35 GMT">
+      <class name="test.ChallengingDOM">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="openBrowser" is-config="true" duration-ms="13667" started-at="2019-12-03T03:10:09 GMT" finished-at="2019-12-03T03:10:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyRows()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyRows" duration-ms="9280" started-at="2019-12-03T03:10:22 GMT" finished-at="2019-12-03T03:10:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRows -->
+        <test-method status="PASS" signature="verifyTableHeadings()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyTableHeadings" duration-ms="702" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeadings -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="verifyTitle" duration-ms="12" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyHeading()[pri:1, instance:test.ChallengingDOM@67b92f0a]" name="verifyHeading" duration-ms="76" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeading -->
+        <test-method status="PASS" signature="verifyDescription()[pri:2, instance:test.ChallengingDOM@67b92f0a]" name="verifyDescription" duration-ms="80" started-at="2019-12-03T03:10:32 GMT" finished-at="2019-12-03T03:10:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDescription -->
+        <test-method status="PASS" signature="verifyButtonSet()[pri:3, instance:test.ChallengingDOM@67b92f0a]" name="verifyButtonSet" duration-ms="168" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonSet -->
+        <test-method status="PASS" signature="verifyBlueButtonClick()[pri:4, instance:test.ChallengingDOM@67b92f0a]" name="verifyBlueButtonClick" duration-ms="765" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlueButtonClick -->
+        <test-method status="PASS" signature="verifyRedButtonClick()[pri:5, instance:test.ChallengingDOM@67b92f0a]" name="verifyRedButtonClick" duration-ms="540" started-at="2019-12-03T03:10:33 GMT" finished-at="2019-12-03T03:10:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRedButtonClick -->
+        <test-method status="PASS" signature="verifyGreenButtonClick()[pri:6, instance:test.ChallengingDOM@67b92f0a]" name="verifyGreenButtonClick" duration-ms="772" started-at="2019-12-03T03:10:34 GMT" finished-at="2019-12-03T03:10:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGreenButtonClick -->
+        <test-method status="PASS" signature="CloseBowser()[pri:0, instance:test.ChallengingDOM@67b92f0a]" name="CloseBowser" is-config="true" duration-ms="300" started-at="2019-12-03T03:10:35 GMT" finished-at="2019-12-03T03:10:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBowser -->
+      </class> <!-- test.ChallengingDOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
